@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<HEAD>
+    <TITLE> Tipos de hongos </TITLE>
+    <META HTTP-EQUIV="Refresh" CONTENT="10">
+</HEAD>
+<body style="background-color: forestgreen;">
+<br style="line-height:  30px;">
+<table align=center>
+<tr align=center>
+    <td width=5% align=left><img src="https://th.bing.com/th?id=OIP.Vceg6Q4CFrWOwYwS_gaaVwHaHT&w=251&h=248&c=8&rs=1&qlt=90&o=6&cb=15&pid=3.1&rm=2" width="50%"></td> 
+<td width= 20% align=center>
+<FONT size= 10%><h1 style="font-family: Geneva; color: floralwhite;">Tipos de hongos</h1></FONT>
+     <td width=5% align=right><img src="https://th.bing.com/th?id=OIP.Vceg6Q4CFrWOwYwS_gaaVwHaHT&w=251&h=248&c=8&rs=1&qlt=90&o=6&cb=15&pid=3.1&rm=2"  width="50%"></td> 
+<td>
+ </td>   
+</tr> 
+    </table>
+<br style="line-height:  30px;">
+   
+
+   <p align=center> <audio controls>
+     <source src="sonido.mp3" type=audio/mp3>
+       </audio> </p>
+
+  <br style="line-height:  30px;">  
+<table width="80%" bgcolor="chocolate">
+<tr>
+<td width="50%" align="left">
+<a href="hongo1.html">
+<img src="https://cdn0.bioenciclopedia.com/es/posts/2/3/7/clasificacion_de_los_hongos_732_1_600.webp" width="100%">
+</a>
+</td>
+<td width="50%" align="center">
+<font size="40%" color="floralwhite">
+<p align="left">
+<a href="hongo1.html">
+<i> Phylum Basidiomycota </i>
+</a>
+</p>
+</font>
+</td>
+</tr>
+</table>
+    <br style="line-height:  30px;"> 
+<table width="80%" bgcolor="darkgray" align="right">
+<tr>
+<td width="50%" align="center">
+<a href="hongo2.html">
+<font size="40%" color="floralwhite">
+<p align="center"><i> Phylum Chytridiomycota </i></p>
+</font>
+</a>
+</td>
+<td width="50%" align="right">
+<a href="hongo2.html">
+<img src="https://alchetron.com/cdn/chytridiomycota-84e2ca11-c90c-4a5b-929f-726db8c97be-resize-750.jpeg" width="100%">
+</a>
+</td>
+</tr>
+</table>
+<br style="line-height:  30px;"> 
+<table width="80%" bgcolor="coral" align="left">
+<tr>
+<td width="40%" align="left">
+<a href="hongo3.html">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/PinMould_on_Peach_HighMag_Scale.jpg/220px-PinMould_on_Peach_HighMag_Scale.jpg" width="100%">
+</a>
+</td>
+<td width="50%" align="center">
+<a href="hongo3.html">
+<font size="40%" color="floralwhite">
+<p align="center"><i> Phylum Zygomycota </i></p>
+</font>
+</a>
+</td>
+</tr>
+</table>
+    
+<table width="80%" bgcolor="goldenrod" align="right">
+<tr>
+<td width="50%" align="center">
+<a href="hongo4.html">
+<font size="40%" color="floralwhite">
+<p align="center"><i> Phylum Ascomycota </i></p>
+</font>
+</a>
+</td>
+<td width="50%" align="right">
+<a href="hongo4.html">
+<img src="https://cdn0.ecologiaverde.com/es/posts/3/3/5/filo_ascomycota_3533_4_600.webp" width="100%">
+</a>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<table width="100%" align=center>
+    <tr align=center>
+        <td align=center>
+            <video id="myvideo" width="100%" align=center controls>
+                <source src="hongosmasvenenososypeligrosos.mp4" type="video/mp4">
+                
+</video>
+ </td>
+    </tr>
+    <tr align=center>
+        
+            <td align=center width=15%><button onclick="playPause()"><img src="https://cdn-icons-png.flaticon.com/512/0/375.png" width=30 ></button> </td>
+            <td align=center width=15%><button onclick="seek(10)"><img src="https://cdn-icons-png.flaticon.com/512/25/25650.png"width=30 ></button></td>
+            <td align=center width=15%><button onclick="seek(-10)"><img src="https://cdn-icons-png.flaticon.com/512/25/25616.png"width=30 ></button></td>
+            <td align=center width=15%><button onclick="muteUnmute()"><img src="https://cdn-icons-png.flaticon.com/512/6398/6398985.png"width=30></button></td>
+            <td align=center width=15%><button onclick="setVolume(0.5)"><img src="https://images.vexels.com/media/users/3/153417/isolated/preview/0565a50b35faf499f9dafb95dd4ef27a-bajar-volumen-icono-plano.png"width=30 ></button></td>
+            <td align=center width=15%><button onclick="setVolume(1)"><img src="https://cdn-icons-png.freepik.com/512/58/58495.png" width="30" ></button></td>
+       
+    </tr>
+</table>
+<script>
+    var video = document.getElementById("myvideo");
+
+    function playPause() {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+
+    function seek(seconds) {
+        video.currentTime += seconds;
+    }
+
+    function setVolume(volume) {
+        video.volume = volume;
+    }
+
+    function muteUnmute() {
+        if (video.muted) {
+            video.muted = false;
+        } else {
+            video.muted = true;
+        }
+    }
+</script>
+
+</body>
+</html>
+    
+   
+
+
+
+
+
+
